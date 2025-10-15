@@ -1,0 +1,14 @@
+.hamburger{
+     position: fixed;
+     right: 1.5rem;
+     bottom: 3rem;
+     cursor: pointer;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after{
+    background-color: red;
+    cursor: pointer;
+}
+
