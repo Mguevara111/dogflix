@@ -17,7 +17,7 @@ function App() {
     }else{
       document.body.classList.add('body--lightmode')
     }
-    
+    ()=>document.body.classList.remove('body--lightmode')
   },[lightmode])
 
  const handleaddfavorites=(e)=>{
