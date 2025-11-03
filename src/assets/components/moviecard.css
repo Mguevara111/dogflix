@@ -1,0 +1,167 @@
+.moviecard-container{
+    width: 100%;
+    height: auto;
+    
+}
+.moviecard-container__header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    overflow: hidden;
+}
+@media screen and (min-width:62em){
+    .moviecard-container__header{
+        background-color: rgba(128, 128, 128, 0.5)
+    }
+}
+.moviecard-container__heroimage,
+.moviecard-container__data{
+    width: 50%;
+    height: 250px;
+}
+@media screen and (min-width:30em) {
+    .moviecard-container__data,
+    .moviecard-container__heroimage{
+       
+        height: 350px;
+    }
+}
+@media screen and (min-width:48em) {
+    .moviecard-container__data,
+    .moviecard-container__heroimage{
+        
+        height: 450px;
+    }
+}
+.moviecard-container__data{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+@media screen and (min-width:62em){
+    .moviecard-container__data{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.moviecard-container__data > h2{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+@media screen and (min-width:62em){
+    .moviecard-container__data > h2{
+        font-size: 3rem;
+    }
+}
+.moviecard-container__heroimage > img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+}
+@media screen and (min-width:30em) {
+    .moviecard-container__heroimage > img{
+        width: 300px;
+        height: 350px;
+    }
+}
+@media screen and (min-width:48em) {
+    .moviecard-container__heroimage > img{
+        width: 400px;
+        height: 450px;
+    }
+}
+
+.moviecard-container__data > *{
+    color: white;
+}
+.moviecard-container__star{
+    fill: yellow;
+    color: yellow;
+}
+.moviecard-container__P{
+    fill: yellow;
+    color: yellow;
+}
+.moviecard-container__data p{
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+.moviecard-container__rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moviecard-container__star--light{
+    fill: blue;
+}
+.moviecard-container__favorites{
+    fill: red;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.moviecard-container__trailerbtn{
+    width: 120px;
+    height: 50px;
+    color: red;
+    background-color: transparent;
+    border: thin solid red;
+    font-size: 1.1rem;
+}
+.moviecard-container__trailerbtn:hover{
+    color: black;
+    background-color: red;
+    border: thin solid black;
+}
+.moviecard-synopsis{
+    color: white;
+    padding: 1rem;
+    text-align: justify;
+}
+.moviecard-synopsis__trailer{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 4 / 3;
+    margin-bottom: 1rem;
+}
+.closebtn{
+    text-align: end;
+    padding: 1rem;
+    
+}
+.closebtn > button{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border:thin solid red;
+    color:red
+}
+.closebtn > button:hover{
+    color: black;
+    background-color: red;
+    border: thin solid black;
+}
+b{
+    color: yellow;
+}
+.moviecard-synopsis__synopsis{
+    line-height: 1.5rem;
+}
+.moviecard-container__favorites--filled{
+    fill: black;
+    background-color: red;
+    border-radius: 50%;
+}
+.lightletters{
+    color: black;
+}
+.lightb{
+    color: blue;
+    fill: blue;
+}

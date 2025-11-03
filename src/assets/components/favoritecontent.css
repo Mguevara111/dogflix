@@ -1,0 +1,23 @@
+.favorite-noinfo-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.favorite-noinfo{
+    color: white;
+}
+.favorite-return{
+    width: 150px;
+    height: 70px;
+    color: red;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: thin solid red;
+    cursor: pointer;
+}
+.favorite-return:hover{
+    color: black;
+    font-size: 1.2rem;
+    background-color: red;
+    border: thin solid black;
+}

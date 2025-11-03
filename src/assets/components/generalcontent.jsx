@@ -2,6 +2,7 @@ import React from "react";
 import './generalcontent.css'
 
 export function Generalcontent({mainbase}){
+    //no estoy usando ya este componente*********************************
     return(
         <section className="content">
             {mainbase.map(movie=>

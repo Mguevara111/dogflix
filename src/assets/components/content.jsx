@@ -1,17 +1,21 @@
 import React from "react";
-import { useState } from "react";
-import { Generalcontent } from "./generalcontent";
 import './content.css';
 import { Filtercontent } from "./filtercontent";
 
 
-export function Content({activeburger,handleburguerchange,mainbase,filterbase,seefilter}){
+export function Content({activeburger,handleburguerchange,mainbase,filterbase,seefavorites,handleseecard,handleroutes,lightmode}){
 
 
     return(
         <>
-        {seefilter?<Filtercontent filterbase={filterbase}></Filtercontent>:<Generalcontent mainbase={mainbase}></Generalcontent>}
-        
+        <Filtercontent filterbase={filterbase} 
+            seefavorites={seefavorites} 
+            mainbase={mainbase} 
+            handleseecard={handleseecard} 
+            handleroutes={handleroutes}
+            lightmode={lightmode}>
+        </Filtercontent>
+
         {/************ burguer button *****************/}
         <button className={`hamburger hamburger--emphatic ${activeburger?'is-active':''}`} type="button" onClick={handleburguerchange}>
                 <span className="hamburger-box">

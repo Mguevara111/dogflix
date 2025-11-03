@@ -11,4 +11,8 @@
     background-color: red;
     cursor: pointer;
 }
-
+@media screen and (min-width:48em){
+    .hamburger{
+        display: none;
+    }
+}

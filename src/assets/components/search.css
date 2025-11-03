@@ -18,6 +18,11 @@
     font-weight: bold;
     border: thin solid white;
 }
+.search__input--light{
+    background-color: white;
+    color: black;
+    border: thin solid black;
+}
 @media screen and (min-width:30em) {
     .search__lightlogo,
     .search__favoritelogo{

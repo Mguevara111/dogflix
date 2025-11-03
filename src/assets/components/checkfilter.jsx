@@ -8,6 +8,6 @@ export function Checkfilter({content,handleclickfilter,category}){
             <input id={content} type="checkbox" value={content} data-cat={category} onChange={handleclickfilter}/>
             {content}
         </label>
-        //endiente implementar filtrado******************************************************
+        
     );
 }

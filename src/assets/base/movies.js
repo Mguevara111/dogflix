@@ -9,6 +9,16 @@ import dantes from '../images/Dantes_Inferno_AAE.jpg';
 import gins from '../images/Ghost_in_the_Shell_(2017_film).png';
 import ghostland from '../images/ghostland.jpg';
 import gravity from '../images/gravity.jpg';
+import dabbe from '../images/dabbe.jpg';
+import savageland from '../images/savageland.jpg';
+import longlegs from '../images/longlegs.webp';
+import quietplace from '../images/quietplace.png';
+import martyrs from '../images/martyrs.jpg';
+import mummy from '../images/gnm.webp';
+import talktome from '../images/talktome.jpg';
+import jennypen from '../images/Rule_of_jenny_pen.jpg';
+import incantation from '../images/incantation.jpeg';
+import dw from '../images/The_Dark_and_the_Wicked.jpg';
 
 export const movies = [
   {
@@ -23,7 +33,8 @@ export const movies = [
         //framever:'<iframe width="560" height="315" src="https://www.youtube.com/embed/KKEgeojjcGg?si=9g5zTQrxG-QaE5ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         synopsis:'Un par de adolescentes se adentran al infame hospital psiquiátrico Gonjiam del cual se dice esta embrujado debido a la desaparición de varios pacientes así como el misterioso suicidio de la directora que se ahorcó poco antes de la clausura del edificio. Los dos quieren entrar en la sala de cuidados intensivos conocida como la habitación 402 que es inaccesible y se cree que está maldita.',
         cast:['Oh Ah-yeon','Yoo Je-Yoon','Park Ji-hyun'],
-        trailer:'https://www.youtube.com/watch?v=KKEgeojjcGg'
+        trailer:'https://www.youtube.com/watch?v=KKEgeojjcGg',
+        favorite:false
     },
     {
         id:2,
@@ -36,7 +47,8 @@ export const movies = [
         framever:'https://www.youtube.com/embed/43uAputjI4k?si=EUugBwadbIwXYUn8',
         synopsis:'Un misterioso japonés llega a Gokseong , un pequeño pueblo en las montañas de Corea del Sur. Poco después, estalla una extraña infección que provoca que los aldeanos se vuelvan locos y maten violentamente a sus familias. La hija del oficial Jong-goo, Hyo-jin, se convierte en una de las poseídas. Jong-goo luego conoce a una misteriosa joven llamada Moo-myeong, quien afirma que el hombre japonés es un espíritu maligno.',
         cast:['Jun Kunimura','Kwak Do-won','Kim Hwan-hee'],
-        trailer:'https://www.youtube.com/watch?v=43uAputjI4k'
+        trailer:'https://www.youtube.com/watch?v=43uAputjI4k',
+        favorite:false
     },
     {
         id:3,
@@ -49,7 +61,8 @@ export const movies = [
         framever:'https://www.youtube.com/embed/sCimThZW-Ew?si=GXZS1hi-HBAnw-SX',
         synopsis:'Mientras conducían de regreso de una visita de Acción de Gracias a casa de sus padres, Joanne y su esposo, Ray, discutían sobre el estado de su relación. Tras regresar del baño, su hija de 6 años, Peri, perdió su espejo compacto, lo que llevó a sus padres a buscarlo. Mientras Ray estaba distraído, Peri se sobresaltó al ver a un perro en una obra abandonada. Ray lanzó una piedra para asustar al perro, asustando a Peri, quien cayó en un pozo. Ray, al intentar agarrarla, cayó en el pozo y se golpeó la cabeza',
         cast:['Sam Worthington','Lucy Capri','Lily Rabe'],
-        trailer:'https://www.youtube.com/watch?v=sCimThZW-Ew'
+        trailer:'https://www.youtube.com/watch?v=sCimThZW-Ew',
+        favorite:false
     },
     {
         id:4,
@@ -62,7 +75,8 @@ export const movies = [
         framever:'https://www.youtube.com/embed/xwWgp1bqVwE?si=Jem-T4NQGe_edrs4',
         synopsis:'Una noche de invierno, el automóvil de la joven Joo-yun sufre un desperfecto al pinchar una de sus llantas. Kyung-chul (Choi Min-sik), quien estaba cerca del lugar, se ofrece a ayudarla, pero la joven no acepta. Tras esto, el hombre la secuestra y conduce a su casa. Unas horas después ella despierta y le pide al hombre que no la mate, revelando que está embarazada; sin embargo, Kyung-chul la ignora y la mata brutalmente.',
         cast:['Lee Byung-hun','Choi Min-sik','Jeon Gook-hwan'],
-        trailer:'https://www.youtube.com/watch?v=xwWgp1bqVwE'
+        trailer:'https://www.youtube.com/watch?v=xwWgp1bqVwE',
+        favorite:false
     },
     {
         id:5,
@@ -75,7 +89,8 @@ export const movies = [
         framever:'https://www.youtube.com/embed/rRGQKiR1WRs?si=pvSAaMLEDOE4w2Ea',
         synopsis:'Sarah Scarangelo es una joven embarazada que se encuentra expectante por ser madre primeriza, sin embargo, tanto ella como su marido Louise (Jean-Baptiste Tabourin) sufren un accidente automovilístico en el que, Louis muere. Cuatro meses después, llega la navidad, pero Sarah sigue deprimida por su pérdida. Esa misma tarde, se presenta una extraña mujer en su casa y le pide que la deje entrar para realizar una llamada de emergencia.',
         cast:['Alysson Paradis','Jean-Baptiste Tabourin','Claude Lulé'],
-        trailer:'https://www.youtube.com/watch?v=rRGQKiR1WRs'
+        trailer:'https://www.youtube.com/watch?v=rRGQKiR1WRs',
+        favorite:false
     },
     {
         id:6,
@@ -88,7 +103,8 @@ export const movies = [
         framever:'https://www.youtube.com/embed/mtTAhXuiRTc?si=Jj6A0RiEUTkFiZBl',
         synopsis:'En el condado de Grantham, Virginia, se encuentra el cadáver de una joven no identificada en la escena de un inexplicable homicidio múltiple. No se encuentran señales de entrada forzada, y se determina que las víctimas intentaban escapar de la casa donde ocurrieron los asesinatos. En el sótano se encuentra una desconocida semienterrada , que el sheriff entrega al forense local, Tommy Tilden, y a su hijo Austin, a quien está asesorando. Austin pospone su cita con su novia Emma para ayudar a su padre con la autopsia de la desconocida , prometiéndole reunirse con ella esa misma noche.',
         cast:['Brian Cox','Emile Hirsch','Olwen Catherine Kelly'],
-        trailer:'https://www.youtube.com/watch?v=mtTAhXuiRTc'
+        trailer:'https://www.youtube.com/watch?v=mtTAhXuiRTc',
+        favorite:false
     },
     {
         id:7,
@@ -101,7 +117,8 @@ export const movies = [
         framever:'https://www.youtube.com/embed/UAeZdEQxWt4?si=3HdPm2iSJs3KbW7x',
         synopsis:'Una mujer llamada Malorie y dos niños navegan río abajo con los ojos vendados para llegar a un refugio, después de que unas fuerzas extrañas invadieran, y se encuentren provocando suicidios masivos alrededor del mundo, generando caos y disminuyendo la población.',
         cast:['Sandra Bullock','Trevante Rhodes','John Malkovich'],
-        trailer:'https://www.youtube.com/watch?v=UAeZdEQxWt4'
+        trailer:'https://www.youtube.com/watch?v=UAeZdEQxWt4',
+        favorite:false
     },
     {
         id:8,
@@ -114,7 +131,8 @@ export const movies = [
         framever:'https://www.youtube.com/embed/98WFrlW_ajg?si=SxObWYDp8DKhAokk',
         synopsis:'Al regresar de la Tercera Cruzada , Dante llega a casa y encuentra a sus sirvientes asesinados, a su padre muerto y a su amada prometida, Beatriz , agonizando por una puñalada en el estómago. Mientras ella muere, Lucifer arrastra a Beatriz hasta las puertas del Infierno y Dante la persigue. Virgilio aparece y se ofrece a guiarlo a través del Infierno. Abordan Caronte , un transbordador demoníaco y viviente que transporta almas al Primer Círculo del Infierno. Caronte ordena a los demonios que ataquen a Dante, ya que ningún ser vivo puede entrar. Dante los combate, mata a Caronte y lo conduce al primer círculo, el Limbo .',
         cast:[],
-        trailer:'https://www.youtube.com/watch?v=98WFrlW_ajg'
+        trailer:'https://www.youtube.com/watch?v=98WFrlW_ajg',
+        favorite:false
     },
     {
         id:9,
@@ -127,7 +145,8 @@ export const movies = [
         framever:'https://www.youtube.com/embed/tRkb1X9ovI4?si=B7U-IXzWAuAD8mPl',
         synopsis:'En un futuro cercano, los humanos reciben mejoras cibernéticas como visión, fuerza e inteligencia. La desarrolladora de aumentación Hanka Robotics inicia un proyecto secreto para desarrollar un cuerpo artificial, o "caparazón", que pueda integrar un cerebro humano en lugar de una IA . Mira Killian, la única superviviente de un ciberataque terrorista que cobró la vida de sus padres, es elegida como sujeto de prueba tras sufrir daños irreparables en su cuerpo. A pesar de las objeciones de su diseñador, el Dr. Ouelet, Cutter, director ejecutivo de Hanka Robotics, decide utilizar a Killian como agente antiterrorista .',
         cast:[],
-        trailer:'https://www.youtube.com/watch?v=tRkb1X9ovI4'
+        trailer:'https://www.youtube.com/watch?v=tRkb1X9ovI4',
+        favorite:false
     },
     {
         id:10,
@@ -140,7 +159,8 @@ export const movies = [
         framever:'https://www.youtube.com/embed/66JuZ1cb03E?si=TVAYU2gklYBaeyGE',
         synopsis:'Una mujer llamada Pauline viaja con sus hijas adolescentes Beth y Vera a la casa aislada de su tía Clarisse, recientemente fallecida, después de que la heredaron en su testamento. Beth lee un artículo sobre una serie de allanamientos de viviendas en los que los padres son asesinados, pero las hijas se salvan. Sin que la familia lo sepa, alguien que conduce un camión de dulces los está acosando.',
         cast:[],
-        trailer:'https://www.youtube.com/watch?v=66JuZ1cb03E'
+        trailer:'https://www.youtube.com/watch?v=66JuZ1cb03E',
+        favorite:false
     },
      {
         id:11,
@@ -153,6 +173,147 @@ export const movies = [
         framever:'https://www.youtube.com/embed/rjb0kD-yht4?si=2r4PNdroU0jRlRoM',
         synopsis:'La doctora Ryan Stone es una especialista en su primera misión a bordo del transbordador espacial Explorer. Está acompañada por el veterano astronauta Matt Kowalski (George Clooney), quien está al mando de su última misión, antes de retirarse. Durante una caminata espacial para reparar el telescopio espacial Hubble, el Control de Misión en Houston (Ed Harris) advierte al equipo de que la destrucción de un satélite difunto por parte de los rusos ha provocado una reacción en cadena y la formación de una nube de desechos espaciales.',
         cast:[],
-        trailer:'https://www.youtube.com/watch?v=rjb0kD-yht4'
+        trailer:'https://www.youtube.com/watch?v=rjb0kD-yht4',
+        favorite:false
+    },
+    {
+        id:12,
+        title:'Dabbe: Cin Çarpmasi',
+        year:2013,
+        conuntry:'Turkey',
+        genre:['Terror'],
+        rating:7.8,
+        image:dabbe,
+        framever:'https://www.youtube.com/embed/oFAHTz01f7g?si=0IuXmd7RVR-ESN6s',
+        synopsis:'Kübra es una joven atormentada por un genio justo antes de su boda; asesina a su prometido la noche de la henna delante de toda la familia. Ebru es psiquiatra y amiga de la infancia de Kübra. Ebru quiere filmar las acciones de los supuestos exorcistas para intentar demostrar la existencia de los genios. Lleva a un exorcista, Faruk, a la aldea de Kübra para ver si puede curarla y demostrar la existencia de los genios. Visitan un árbol maldito a la entrada de la aldea y ven un extraño código, el 7175, grabado en el tronco.',
+        cast:['Irmak Örnek','Cansu Kurgun'],
+        trailer:'https://www.youtube.com/watch?v=oFAHTz01f7g',
+        favorite:false
+    },
+    {
+        id:13,
+        title:'Savageland',
+        year:2015,
+        conuntry:'USA',
+        genre:['False Footage'],
+        rating:7.0,
+        image:savageland,
+        framever:'https://www.youtube.com/embed/8mpjFjptChQ?si=8XmYq1Qeeh_tV2YS',
+        synopsis:'En la noche del 2 de junio de 2011, el pueblo fronterizo de Sangre de Cristo, Arizona, fue asediado por un incidente desconocido que resultó en la espantosa aniquilación de la población de 57 habitantes de la localidad. La policía apresó al único superviviente del hecho: Francisco Salazar, vecino del pueblo que hacía trabajos domésticos de albañilería y carpintería, además de fotógrafo aficionado. Debido a que él también es descrito como un inmigrante ilegal de México, está etiquetado como el principal sospechoso de los asesinatos.',
+        cast:[],
+        trailer:'https://www.youtube.com/watch?v=8mpjFjptChQ',
+        favorite:false
+    },
+    {
+        id:14,
+        title:'Longlegs',
+        year:2024,
+        conuntry:'USA',
+        genre:['Terror'],
+        rating:8.0,
+        image:longlegs,
+        framever:'https://www.youtube.com/embed/FXOtkvx25gI?si=iPGvvuMoNkclZV00',
+        synopsis:'Lee Harker, una nueva y talentosa agente del FBI, ha sido asignada a un caso sin resolver de un asesino en serie. A medida que la investigación se vuelve más complicada y se descubren pruebas ocultas, Harker se da cuenta de un vínculo personal con el despiadado asesino y debe actuar rápidamente para evitar otro asesinato familiar',
+        cast:[],
+        trailer:'https://www.youtube.com/watch?v=FXOtkvx25gI',
+        favorite:false
+    },
+     {
+        id:15,
+        title:'A Quiet Place:day one',
+        year:2020,
+        country:'USA',
+        genre:['Terror'],
+        rating:7.8,
+        image:quietplace,
+        framever:'https://www.youtube.com/embed/gjx-iHGXk9Q?si=v2VRGMMM8XO7hgC4',
+        synopsis:'Sam, una paciente con cáncer terminal y pesimista, vive en un hospicio en la ciudad de Nueva York con su gato de servicio, Frodo. Un día, Reuben, un cuidador, convence a Sam, que se muestra reacia, de que se una a una excursión grupal para ver un espectáculo de marionetas en Manhattan. Mientras están en la ciudad, el grupo nota que caen del cielo objetos parecidos a meteoritos. Poco después, unas criaturas atacan a la multitud reunida y a los transeúntes. Una criatura golpea a una ambulancia ruidosa y la explosión deja a Sam inconsciente.',
+        cast:[],
+        trailer:'https://www.youtube.com/watch?v=gjx-iHGXk9Q',
+        favorite:false
+    },
+     {
+        id:16,
+        title:'Mártyrs',
+        year:2008,
+        country:'Francia',
+        genre:['Terror','Gore'],
+        rating:8.5,
+        image:martyrs,
+        framever:'https://www.youtube.com/embed/F8RDYD6VhpI?si=UepMSWPpI5bQysIY',
+        synopsis:'Una joven llamada Lucie escapa de un viejo y desolado edificio utilizado para torturar sujetos de prueba, donde había sido encarcelada y maltratada físicamente por un largo período de tiempo. No hay signos de abuso sexual, y los autores y sus motivaciones siguen siendo un misterio. Lucie es internada en un orfanato, donde entabla amistad con una joven llamada Anna (Erika Scott). Anna pronto descubre que Lucie cree que está constantemente siendo aterrorizada por una mujer desfigurada y cubierta de cicatrices.',
+        cast:[],
+        trailer:'https://www.youtube.com/watch?v=PjMdcg48UFI',
+        favorite:false
+    },
+    {
+        id:17,
+        title:'Ich seh, Ich seh',
+        year:'2014',
+        country:'Austria',
+        genre:['Terror psicológico'],
+        rating:7.5,
+        image:mummy,
+        framever:'https://www.youtube.com/embed/HCjApb9EDcg?si=5JAz3IxT64mRanJT',
+        synopsis:'Después de someterse a una cirugía estética facial, una mujer (Susanne Wuest), que anteriormente era miembro de un coro famoso en la televisión local, regresa a su casa moderna y aislada junto al lago con sus gemelos idénticos de nueve años. Elias y Lukas (Elias y Lukas Schwarz), quienes entran a la casa después de jugar afuera en un campo de maíz y el lago cercano. Su cabeza está envuelta en vendajes, y solo se ven sus ojos y su boca. Los gemelos están desconcertados por la apariencia de su madre y se sorprenden aún más cuando comienza a exhibir un comportamiento extraño.',
+        cast:[],
+        trailer:'https://www.youtube.com/watch?v=HCjApb9EDcg',
+        favorite:false,
+    },
+    {
+        id:18,
+        title:'Talk to me',
+        year:'2022',
+        country:'Australia',
+        genre:['Terror'],
+        rating:7.1,
+        image:talktome,
+        framever:'https://www.youtube.com/embed/aLAKJu9aJys?si=i3usCtfqN9c7eHVe',
+        synopsis:'En una fiesta en Adelaida , Cole busca frenéticamente a su hermano, Duckett. Cuando lo encuentra e intenta llevarlo a casa, Duckett apuñala a Cole y se suicida. Tiempo después, Mia, de 17 años, lidia con el aniversario de la muerte de su madre, Rhea, por una sobredosis accidental de pastillas para dormir, y con la distante relación con su padre, Max. Mia, su mejor amiga Jade y el hermano pequeño de Jade, Riley, se escapan a una reunión organizada por Hayley y Joss, donde la principal atracción es una mano embalsamada . Sostener la mano y decir "Háblame" permite comunicarse con el espíritu de una persona fallecida , mientras que decir "Te dejo entrar" permite que el espíritu los posea . Para evitar que los espíritus se aferren a quien sostiene la mano, otra persona debe terminar la posesión antes de 90 segundos retirando la mano embalsamada y apagando una vela. Mia se ofrece voluntaria para ser la primera y es poseída por un espíritu que centra su atención de forma amenazante en Riley. Joss y Hayley luchan por romper la conexión, y el límite de tiempo se excede ligeramente.',
+        cast:[],
+        trailer:'https://www.youtube.com/watch?v=aLAKJu9aJys',
+        favorite:false,
+    },
+    {
+        id:19,
+        title:'The rule of Jenny Pen',
+        year:'2024',
+        country:'Nueva Zelanda',
+        genre:['Terror psicológico'],
+        rating:6.5,
+        image:jennypen,
+        framever:'https://www.youtube.com/embed/msFtdWr5Kqs?si=wlOIm9i_cv44auN3',
+        synopsis:'El juez Stefan Mortensen, arrogante y ahora parcialmente paralizado tras un derrame cerebral, es internado en una residencia de ancianos que desprecia. Allí conoce a Dave Crealy, un perturbado que somete a los demás a un juego sádico llamado "La Ley de Jenny Pen". Cuando una residente aparece muerta y el personal ignora sus advertencias, Mortensen decide enfrentarse a Crealy con la ayuda de su compañero de habitación, el ex-deportista Tony Garfield. Juntos intentan acabar con ese reinado del terror',
+        cast:[],
+        trailer:'https://www.youtube.com/watch?v=msFtdWr5Kqs',
+        favorite:false,
+    },
+    {
+        id:20,
+        title:'Incantation',
+        year:'2022',
+        country:'China',
+        genre:['Terror','False Footage'],
+        rating:6.8,
+        image:incantation,
+        framever:'https://www.youtube.com/embed/HnyNZdcL_GY?si=xaSGTgb-pwvWQIA1',
+        synopsis:'Una mujer llamada Ronan (Hsuan-yen Tsai) narra la película, implorando al espectador que memorice una insignia y cante un encantamiento, para enviar bendiciones y levantar una maldición sobre su hija de seis años, Dodo (Huang Sin-ting). La insignia y el encantamiento se intercalan con frecuencia a lo largo de la película para alentar al espectador a orar. Los eventos de la película se muestran como un metraje encontrado de manera no lineal.Seis años antes, Ronan, su novio Dom (Sean Lin) y el primo de Dom, Yuan (Wen Ching-yu), rompieron un tabú religioso mientras documentaban un ritual para su canal de internet. Fueron a la aldea remota del clan Chen, los familiares de Dom y Yuan, quienes practicaron un Yunnan esotérico que adora a una deidad llamada Madre-Buda.',
+        cast:[],
+        trailer:'https://www.youtube.com/watch?v=HnyNZdcL_GY',
+        favorite:false,
+    },
+    {
+        id:21,
+        title:'The Dark and the Wicked',
+        year:'2020',
+        country:'USA',
+        genre:['Terror'],
+        rating:6.4,
+        image:dw,
+        framever:'https://www.youtube.com/embed/zM-jmNmX50Q?si=RAPo5c2x6U5tMuCp',
+        synopsis:'Los hermanos Louise y Michael regresan a la granja familiar en Texas cuando la enfermedad crónica de su padre parece estar en su fase terminal. Su madre se muestra preocupada por su llegada y expresa su deseo de que se marchen. Esa noche, se ahorca en el granero tras cortarse (aparentemente de forma involuntaria) los dedos en la cocina.Con el paso del tiempo, Louise y Michael empiezan a comprender lo que le ocurrió a su madre. La enfermera de su padre les confiesa que la oyó susurrarle, pero parecía que no le hablaba a él, sino a alguna otra presencia. Michael encuentra el diario de su madre, donde describe sus temores a una presencia desconocida, posiblemente demoníaca, que acechaba a su marido.',
+        cast:[],
+        trailer:'https://www.youtube.com/watch?v=zM-jmNmX50Q',
+        favorite:false,
     },
 ];
