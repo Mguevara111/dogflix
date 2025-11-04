@@ -8,9 +8,9 @@ export function Header({handleroutes,mainbase,handlesearch,searchinput,handlelig
     return(
         <section className="header">
             {lightmode?
-            <img className="header__logowhite" data-path="main" onClick={handleroutes} src={logowhite} alt="logo" />
+            <a href="#"><img className="header__logowhite" data-path="main" onClick={handleroutes} src={logowhite} alt="logo" /></a>
             :
-            <img className="header__logowhite" data-path="main" onClick={handleroutes} src={logodark} alt="logo" />
+            <a href="#"><img className="header__logowhite" data-path="main" onClick={handleroutes} src={logodark} alt="logo" /></a>
             }
             
             <Search handleroutes={handleroutes} 

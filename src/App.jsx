@@ -16,7 +16,7 @@ function App() {
     if(!lightmode){
       document.body.classList.remove('body--lightmode')
     }else{
-      console.log('modo claro')
+      //console.log('modo claro')
       document.body.classList.add('body--lightmode')
     }
     ()=>document.body.classList.remove('body--lightmode')

@@ -124,11 +124,22 @@
     padding: 1rem;
     text-align: justify;
 }
+.moviecard__trailerdiv{
+    text-align: center;     /*cambio*/
+}
 .moviecard-synopsis__trailer{
     width: 100%;
     height: 100%;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 16 / 9;
     margin-bottom: 1rem;
+    
+}
+@media screen and (min-width:48em) {
+    .moviecard-synopsis__trailer{
+        width: 80%;
+        height: 80vh;
+        aspect-ratio: 16 / 9;
+    }
 }
 .closebtn{
     text-align: end;

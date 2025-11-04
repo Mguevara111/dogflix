@@ -27,7 +27,7 @@ export function Filtercontent({filterbase,mainbase,handleroutes,lightmode}){
                 <div className="content__flip-1 content__flip-1--front" data-id={movie.id}>
                     <img className="content__inner" src={movie.image} alt={movie.title} data-path="card" onClick={handleroutes}/>
                 </div>
-                <div className="content__flip-1 content__flip-1--back">
+                <div className="content__flip-1 content__flip-1--back" data-id={movie.id}>
                     <p className={`content__inner ${lightmode?"content__inner--light":""}`} data-path="card" onClick={handleroutes}>{movie.synopsis}</p>
                 </div>
             </article>
