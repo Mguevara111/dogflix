@@ -12,9 +12,11 @@ function App() {
   const [lightmode,setLightmode]=useState(false); //modo claro
 
   useEffect(()=>{
-    if(document.body.classList.contains('body--lightmode')){
+
+    if(!lightmode){
       document.body.classList.remove('body--lightmode')
     }else{
+      console.log('modo claro')
       document.body.classList.add('body--lightmode')
     }
     ()=>document.body.classList.remove('body--lightmode')
