@@ -1,4 +1,4 @@
-import { useState,useEffect } from 'react'
+import { useState,useEffect,useRef } from 'react'
 import './App.css'
 import { movies } from "./assets/base/movies";
 import { Main } from './assets/components/main';
@@ -10,6 +10,7 @@ function App() {
   const [seecard,setSeecard]=useState('');     //muestra la card individual y toma valor del id
   const [searchinput,setSearchinput]=useState('');
   const [lightmode,setLightmode]=useState(false); //modo claro
+  const [scroll,setScroll]=useState(false);
 
   useEffect(()=>{
 
@@ -19,8 +20,29 @@ function App() {
       //console.log('modo claro')
       document.body.classList.add('body--lightmode')
     }
-    ()=>document.body.classList.remove('body--lightmode')
+    return ()=>document.body.classList.remove('body--lightmode')
   },[lightmode])
+
+  let preposition=useRef(0);
+  useEffect(()=>{
+    
+    const scrollcontrol=()=>{
+      //console.log(window.scrollY)
+      let actualposition=window.scrollY;
+      if(actualposition > preposition.current && actualposition > 100){
+        //console.log('esconde menu')
+        setScroll(true)
+      }else{
+        //console.log('muestra menu')
+        setScroll(false)
+      }
+      preposition.current = actualposition;
+    }
+
+    window.addEventListener('scroll',scrollcontrol)
+
+    return ()=>window.removeEventListener('scroll',scrollcontrol)
+  },[])
 
  const handleaddfavorites=(e)=>{
               //console.log(e.target.dataset.id)
@@ -59,10 +81,10 @@ const handlesearch=(e)=>{
 }
 
 const handlelightmode=()=>{
-  console.log('light mode')
+  //console.log('light mode')
   setLightmode(!lightmode);
 }
- /*falta responsive movie card***************************************************/
+ 
 
   return (
     <>
@@ -71,7 +93,8 @@ const handlelightmode=()=>{
         handlesearch={handlesearch} 
         searchinput={searchinput} 
         handlelightmode={handlelightmode}
-        lightmode={lightmode}>
+        lightmode={lightmode}
+        scroll={scroll}>
       </Header>
       <Main router={router} 
         mainbase={mainbase} 

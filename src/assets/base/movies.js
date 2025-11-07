@@ -249,7 +249,7 @@ export const movies = [
     {
         id:17,
         title:'Ich seh, Ich seh',
-        year:'2014',
+        year:2014,
         country:'Austria',
         genre:['Terror psicológico'],
         rating:7.5,
@@ -263,7 +263,7 @@ export const movies = [
     {
         id:18,
         title:'Talk to me',
-        year:'2022',
+        year:2022,
         country:'Australia',
         genre:['Terror'],
         rating:7.1,
@@ -277,7 +277,7 @@ export const movies = [
     {
         id:19,
         title:'The rule of Jenny Pen',
-        year:'2024',
+        year:2024,
         country:'Nueva Zelanda',
         genre:['Terror psicológico'],
         rating:6.5,
@@ -291,7 +291,7 @@ export const movies = [
     {
         id:20,
         title:'Incantation',
-        year:'2022',
+        year:2022,
         country:'China',
         genre:['Terror','False Footage'],
         rating:6.8,
@@ -305,7 +305,7 @@ export const movies = [
     {
         id:21,
         title:'The Dark and the Wicked',
-        year:'2020',
+        year:2020,
         country:'USA',
         genre:['Terror'],
         rating:6.4,
