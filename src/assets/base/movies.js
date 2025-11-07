@@ -19,6 +19,8 @@ import talktome from '../images/talktome.jpg';
 import jennypen from '../images/Rule_of_jenny_pen.jpg';
 import incantation from '../images/incantation.jpeg';
 import dw from '../images/The_Dark_and_the_Wicked.jpg';
+import noroi from '../images/noroi.jpg';
+import visit from '../images/visit.jpg';
 
 export const movies = [
   {
@@ -314,6 +316,34 @@ export const movies = [
         synopsis:'Los hermanos Louise y Michael regresan a la granja familiar en Texas cuando la enfermedad crónica de su padre parece estar en su fase terminal. Su madre se muestra preocupada por su llegada y expresa su deseo de que se marchen. Esa noche, se ahorca en el granero tras cortarse (aparentemente de forma involuntaria) los dedos en la cocina.Con el paso del tiempo, Louise y Michael empiezan a comprender lo que le ocurrió a su madre. La enfermera de su padre les confiesa que la oyó susurrarle, pero parecía que no le hablaba a él, sino a alguna otra presencia. Michael encuentra el diario de su madre, donde describe sus temores a una presencia desconocida, posiblemente demoníaca, que acechaba a su marido.',
         cast:[],
         trailer:'https://www.youtube.com/watch?v=zM-jmNmX50Q',
+        favorite:false,
+    },
+     {
+        id:22,
+        title:'Noroi',
+        year:2005,
+        country:'Japón',
+        genre:['Terror','False Footage'],
+        rating:6.8,
+        image:noroi,
+        framever:'https://www.youtube.com/embed/ixVC1LYEMbM?si=rNTex9uLA-psdXIE',
+        synopsis:'La película comienza en una sala de edición de vídeo, donde una voz en off describe brevemente a Masafumi Kobayashi, un experto en lo paranormal que produjo una serie de libros y películas sobre la actividad sobrenatural en todo Japón.La película muestra luego la investigación de Kobayashi sobre una mujer llamada Junko Ishii y su hijo sin nombre, que llegan cuando Kobayashi fue contactado por una vecina. Poco después de la primera visita de Kobayashi, Ishii se muda fuera de la ciudad y los vecinos que tuvieron contacto con Kobayashi mueren en un accidente de coche. Ishii no es vista o mencionada hasta el desenlace de la película.',
+        cast:[],
+        trailer:'https://www.youtube.com/watch?v=ixVC1LYEMbM',
+        favorite:false,
+    },
+    {
+        id:23,
+        title:'The visit',
+        year:2015,
+        country:'USA',
+        genre:['Terror','Found Footage'],
+        rating:6.3,
+        image:visit,
+        framever:'https://www.youtube.com/embed/YfQnRjkuvaY?si=1CR90hcS2O1rkbiz',
+        synopsis:'Rebecca y Tyler se preparan para pasar una semana con sus abuelos Freddy y Maria Bella , mientras que su madre Paula (Kathryn Hahn) se va de crucero con su nuevo novio. Los dos niños, que jamás han conocido a sus abuelos, pretenden grabar un documental sobre su visita. Paula no ha visto a sus padres en 15 años, tras marcharse con su profesor de instituto, Robert, que años después la dejó. Le cuenta a Rebecca un poco sobre la pelea que tuvo con sus padres, pero le dice que tendrá que preguntarles a sus abuelos qué pasó el día que ella se marchó de casa si quiere saberlo. Freddy y Maria Bella recogen a Rebecca y Tyler en la estación de tren. Una vez se han asentado en la aislada granja de sus abuelos, estos les dicen a Rebecca y Tyler que no bajen al sótano porque hay moho tóxico.',
+        cast:[],
+        trailer:'https://www.youtube.com/watch?v=YfQnRjkuvaY',
         favorite:false,
     },
 ];
