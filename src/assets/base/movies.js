@@ -21,6 +21,9 @@ import incantation from '../images/incantation.jpeg';
 import dw from '../images/The_Dark_and_the_Wicked.jpg';
 import noroi from '../images/noroi.jpg';
 import visit from '../images/visit.jpg';
+import sacrament from '../images/sacrament.jpeg';
+import nop from '../images/nop.webp';
+import herebefore from '../herebefore.jpg';
 
 export const movies = [
   {
@@ -337,13 +340,55 @@ export const movies = [
         title:'The visit',
         year:2015,
         country:'USA',
-        genre:['Terror','Found Footage'],
+        genre:['Terror','Thriller'],
         rating:6.3,
         image:visit,
         framever:'https://www.youtube.com/embed/YfQnRjkuvaY?si=1CR90hcS2O1rkbiz',
         synopsis:'Rebecca y Tyler se preparan para pasar una semana con sus abuelos Freddy y Maria Bella , mientras que su madre Paula (Kathryn Hahn) se va de crucero con su nuevo novio. Los dos niños, que jamás han conocido a sus abuelos, pretenden grabar un documental sobre su visita. Paula no ha visto a sus padres en 15 años, tras marcharse con su profesor de instituto, Robert, que años después la dejó. Le cuenta a Rebecca un poco sobre la pelea que tuvo con sus padres, pero le dice que tendrá que preguntarles a sus abuelos qué pasó el día que ella se marchó de casa si quiere saberlo. Freddy y Maria Bella recogen a Rebecca y Tyler en la estación de tren. Una vez se han asentado en la aislada granja de sus abuelos, estos les dicen a Rebecca y Tyler que no bajen al sótano porque hay moho tóxico.',
         cast:[],
         trailer:'https://www.youtube.com/watch?v=YfQnRjkuvaY',
+        favorite:false,
+    },
+    {
+        id:24,
+        title:'The sacrament',
+        year:2013,
+        country:'USA',
+        genre:['Terror','Found Footage'],
+        rating:7.4,
+        image:sacrament,
+        framever:'https://www.youtube.com/embed/nM56RubwTHg?si=-i-oUeQUQ7lRw56Y',
+        synopsis:'Patrick, fotógrafo de moda, recibe una carta de su hermana Caroline, una adicta en recuperación, que lo invita a visitar la Parroquia Edén, una comunidad utópica y libre de drogas fundada por un líder religioso. Cuando Patrick investiga, descubre que se han mudado a un complejo aislado al que solo se puede acceder en helicóptero, ubicado en lo que Sam, compañero de trabajo de Patrick, llama "un lugar remoto del mundo". Intrigados por el misterio, Patrick y Sam, junto con el camarógrafo Jake, sugieren un documental sobre el tema. El viaje sale bien, pero el piloto del helicóptero les advierte que se marchará con o sin ellos al día siguiente; prometen ser puntuales. Los problemas surgen al encontrarse con los guías en el aeródromo. Esperando solo a Patrick, los guías se quedan desconcertados por un equipo de filmación; contactan con el padre, el líder, quien autoriza su entrada.',
+        cast:[],
+        trailer:'https://www.youtube.com/watch?v=nM56RubwTHg',
+        favorite:false,
+    },
+    {
+        id:25,
+        title:'Nope',
+        year:2022,
+        country:'USA',
+        genre:['Terror','Fiction'],
+        rating:6.0,
+        image:nop,
+        framever:'https://www.youtube.com/embed/In8fuzj3gck?si=ajFmE_3lmwmTgXOI',
+        synopsis:'En 1998, en el escenario sonoro de la serie cómica Gordys Home, el actor animal que da título a la serie y un chimpancé adiestrado ataca fatalmente a varios de sus coprotagonistas después de ser sobresaltado por el estallido de un globo en el set. El actor más joven del programa, Ricky «Jupe» Park, se esconde debajo de una mesa y sale ileso, aunque traumatizado por la experiencia. El chimpancé encuentra a Jupe y le extiende la mano para chocarle el puño, antes de que las autoridades lo maten a tiros cuando llegan a la escena.',
+        cast:[],
+        trailer:'https://www.youtube.com/watch?v=In8fuzj3gck',
+        favorite:false,
+    },
+    {
+        id:26,
+        title:'Here Before',
+        year:2022,
+        country:'Northern Irish',
+        genre:['Psychological thriller'],
+        rating:7.0,
+        image:herebefore,
+        framever:'https://www.youtube.com/embed/6bqtZcvfuws?si=h-yL8QsjjV0cHmaO',
+        synopsis:'Laura vive en Irlanda del Norte con su esposo Brendan y su hijo Tadhg. Su hija Josie falleció en un accidente de coche varios años antes de los acontecimientos de la película, con Brendan al volante.Una chica llamada Megan se muda a la casa de al lado de Laura con sus padres, Marie y Chris. Megan y Laura pronto entablan una amistad. Laura se intriga cuando Megan comenta que ya estudió en la escuela local y visitó el cementerio local, y le pide que le haga una carita feliz con kétchup cuando la invite a cenar. Marie comenta que Megan nunca ha estudiado en la escuela ni ha visto el cementerio.Un día, Laura lleva a Megan al parque infantil cercano a petición suya. Megan dice que ya había ido al parque antes; Laura, enfadada, la lleva a casa. Marie le pide a Laura que no vuelva a llevar a Megan a casa. Laura se siente insultada; la tensión aumenta, y Marie le advierte que se aleje de Megan. Brendan decide que la familia debería irse de la ciudad unos días para que Laura se relaje. Mientras revisa el teléfono de Brendan, Laura encuentra varias fotos de Megan.',
+        cast:[],
+        trailer:'https://www.youtube.com/watch?v=6bqtZcvfuws&t=8s',
         favorite:false,
     },
 ];
